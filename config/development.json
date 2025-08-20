@@ -1,0 +1,32 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "ruoyi-vue-pro",
+    "username": "root",
+    "password": "123456",
+    "charset": "utf8mb4",
+    "timezone": "+00:00",
+    "ssl": {
+      "enabled": false
+    },
+    "pool": {
+      "connectionLimit": 5,
+      "queueLimit": 0,
+      "acquireTimeout": 30000,
+      "timeout": 30000,
+      "reconnect": true
+    }
+  },
+  "security": {
+    "maxQueryTime": 15000,
+    "maxResultRows": 500,
+    "enableDataMasking": true
+  },
+  "logging": {
+    "level": "debug",
+    "enableQueryLog": true,
+    "logQueries": true,
+    "logResults": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "ruoyi-vue-pro",
+    "username": "root",
+    "password": "",
+    "charset": "utf8mb4",
+    "timezone": "+00:00",
+    "ssl": {
+      "enabled": false,
+      "rejectUnauthorized": false
+    },
+    "pool": {
+      "connectionLimit": 10,
+      "queueLimit": 0,
+      "acquireTimeout": 60000,
+      "timeout": 60000,
+      "reconnect": true
+    }
+  },
+  "security": {
+    "allowedTables": [],
+    "deniedTables": [
+      "mysql",
+      "information_schema",
+      "performance_schema",
+      "sys"
+    ],
+    "maxQueryTime": 30000,
+    "maxResultRows": 1000,
+    "enableDataMasking": true,
+    "sensitiveColumns": [
+      "password",
+      "passwd",
+      "pwd",
+      "secret",
+      "token",
+      "key",
+      "salt",
+      "hash",
+      "credential",
+      "id_card",
+      "identity_card",
+      "ssn",
+      "social_security",
+      "phone",
+      "mobile",
+      "email"
+    ]
+  },
+  "logging": {
+    "level": "info",
+    "enableQueryLog": true,
+    "logQueries": true,
+    "logResults": false
+  },
+  "mcp": {
+    "serverName": "mcp-mysql-service",
+    "version": "1.0.0",
+    "description": "MCP MySQL服务 - 为ClaudeCode提供安全的MySQL数据库查询和分析功能"
+  }
+}
