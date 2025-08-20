@@ -52,7 +52,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LemonYangZW/mcp-mysql-service.git"
+    "url": "git+https://github.com/LemonYangZW/mcp-mysql-service.git"
   },
   "homepage": "https://github.com/LemonYangZW/mcp-mysql-service#readme",
   "bugs": {
@@ -63,10 +63,12 @@
     "README.md",
     "LICENSE",
     "config/default.json",
-    ".env.example"
+    ".env.example",
+    "tsconfig.json"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "engines": {
     "node": ">=18.0.0",
