@@ -1,6 +1,6 @@
 {
   "name": "mcp-mysql-service",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP (Model Context Protocol) MySQL服务，用于在ClaudeCode环境下快速查询MySQL数据库结构和数据分析",
   "main": "dist/index.js",
   "bin": {
